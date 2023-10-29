@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Common Activites of A Scrum Team In A Three-Weeks Sprint</title>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin-left: 30px;
+        background-color: whilte;
+        font-family: "Roboto Slab", serif;
+        font-size: 14px;
+        color: black;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid rgba(24, 22, 22, 0.324);
+        border-collapse: collapse;
+        padding: 0 10px 0px 10px;
+        vertical-align: top;
+      }
+
+      th {
+        font-size: 16px;
+        padding: 2px;
+      }
+
+      td:hover {
+        font-weight: bold;
+      }
+
+      .td-week {
+        padding: 0;
+        vertical-align: middle;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+      }
+
+      .td-week > div {
+        transform: rotate(-90deg);
+        height: 25px;
+        width: 30px;
+        font-size: 16px;
+        padding: 2px;
+      }
+
+      .scrum-activity {
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: -10px;
+      }
+
+      ul,
+      li {
+        /* list-style-type: square;
+        list-style-position: inside; */
+        position: relative;
+        left: -12px;
+      }
+
+      .sprint-a > .scrum-activity {
+        color: purple;
+      }
+
+      .sprint-b > .scrum-activity {
+        color: blue;
+      }
+
+      .sprint-b > td > .scrum-activity {
+        color: blue;
+      }
+
+      .sprint-c > td > .scrum-activity {
+        color: red;
+      }
+
+      .sprint-c > .scrum-activity {
+        color: red;
+      }
+
+      .sprint-a {
+        background-color: lightpink;
+      }
+
+      .sprint-b {
+        background-color: rgb(244, 241, 156);
+      }
+
+      .sprint-c {
+        background-color: lightblue;
+      }
+
+      .div-grooming {
+        border: 1px solid;
+        padding: 10px 0px 5px 10px;
+        margin: 5px 0px 0 0px;
+        background-color: purple;
+        color: yellow;
+      }
+
+      .div-grooming > p {
+        font-weight: bold;
+        margin-top: -5px;
+        margin-bottom: -5px;
+      }
+
+      .div-grooming > ul {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Common Activites of A Scrum Team In A Three-Weeks Sprint</h1>
+
+      <!-- <p style="margin-left: 5px">
+        This calendar shows common activites of a scrum team in a Sprint-of
+        three weeks.
+      </p> -->
+
+      <br />
+      <table style="border: 10px">
+        <thead>
+          <tr style="background-color: black; color: white">
+            <th align="left"></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="td-week">
+              <div>Week_#1</div>
+            </td>
+            <td class="monday sprint-a">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-A Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="tuesday sprint-a">
+              <p class="scrum-activity">Sprint-A Demo:</p>
+              <ul>
+                <li>2-3 hours.</li>
+                <li>10 min / each to demo work done.</li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-A Retrospective:</p>
+              <ul>
+                <li>1-2 hours.</li>
+                <li>Discuss what went well and what can be improved.</li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Team members review to understand Sprint-B user-stories and
+                  what need to be done.
+                </li>
+              </ul>
+            </td>
+            <td class="wednesday sprint-b">
+              <p class="scrum-activity">Sprint-B Planning:</p>
+              <ul>
+                <li>2-3 hours.</li>
+                <li>
+                  Create, plan, estimate, and assign tasks for each user-story
+                  backlog.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="thursday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="friday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="td-week">
+              <div>Week_#2</div>
+            </th>
+            <td class="monday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="tuesday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="wednesday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="thursday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="friday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="td-week">
+              <div>Week_#3</div>
+            </th>
+            <td class="monday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="tuesday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="wednesday sprint-b">
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+
+              <div class="div-grooming">
+                <p>Sprint-C Grooming</p>
+                <ul>
+                  <li>1-2 hours.</li>
+                  <li>
+                    Product Owner and Team discuss, refine, and confirms the
+                    user-stories priority for the Sprint-C.
+                  </li>
+                </ul>
+              </div>
+            </td>
+            <td class="thursday sprint-b">
+              <div class="div-grooming">
+                <p>Sprint-C Grooming</p>
+                <ul>
+                  <li>1-2 hours.</li>
+                  <li>
+                    Product Owner and Team discuss, refine, and confirms the
+                    user-stories priority for the Sprint-C.
+                  </li>
+                </ul>
+              </div>
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="friday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="td-week">
+              <div>Week_#4</div>
+            </th>
+            <td class="monday sprint-b">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="tuesday sprint-b">
+              <p class="scrum-activity">Sprint-B Demo:</p>
+              <ul>
+                <li>2-3 hours.</li>
+                <li>10 min / each to demo work done.</li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Retrospective:</p>
+              <ul>
+                <li>1-2 hours.</li>
+                <li>Discuss what went well and what can be improved.</li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Team members review to understand Sprint-B user-stories and
+                  what need to be done.
+                </li>
+              </ul>
+            </td>
+            <td class="wednesday sprint-c">
+              <p class="scrum-activity">Sprint-C Planning:</p>
+              <ul>
+                <li>2-3 hours.</li>
+                <li>
+                  Create, plan, estimate, and assign tasks for each user-story
+                  backlog.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="thursday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="friday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="td-week">
+              <div>Week_#5</div>
+            </th>
+            <td class="monday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="tuesday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="wednesday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-B Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="thursday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="friday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="td-week">
+              <div>Week_#6</div>
+            </th>
+            <td class="monday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="tuesday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="wednesday sprint-c">
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+
+              <div class="div-grooming">
+                <p>Sprint-D Grooming</p>
+                <ul>
+                  <li>1-2 hours.</li>
+                  <li>
+                    Product Owner and Team discuss, refine, and confirms the
+                    user-stories priority for the Sprint-D.
+                  </li>
+                </ul>
+              </div>
+            </td>
+            <td class="thursday sprint-c">
+              <div class="div-grooming">
+                <p>Sprint-D Grooming</p>
+                <ul>
+                  <li>1-2 hours.</li>
+                  <li>
+                    Product Owner and Team discuss, refine, and confirms the
+                    user-stories priority for the Sprint-D.
+                  </li>
+                </ul>
+              </div>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="friday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="td-week">
+              <div>Week_#7</div>
+            </th>
+            <td class="monday sprint-c">
+              <p class="scrum-activity">Standup Meeting</p>
+              <ul>
+                <li>15 minutes.</li>
+                <li>
+                  Update status: What has been done, what will be done, what is
+                  blocked.
+                </li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Tasks</p>
+              <ul>
+                <li>
+                  Dev: All Dev tasks relate to: designing, coding, review, bugs
+                </li>
+                <li>
+                  QA: All QA tasks relate to: test cases, test execution, bugs
+                </li>
+                <li>
+                  SDET: All SDET tasks relate to: Test scripts, test execution,
+                  bugs
+                </li>
+              </ul>
+            </td>
+            <td class="tuesday sprint-c">
+              <p class="scrum-activity">Sprint-C Demo:</p>
+              <ul>
+                <li>2-3 hours.</li>
+                <li>10 min / each to demo work done.</li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-C Retrospective:</p>
+              <ul>
+                <li>1-2 hours.</li>
+                <li>Discuss what went well and what can be improved.</li>
+              </ul>
+
+              <p class="scrum-activity">Sprint-D Tasks</p>
+              <ul>
+                <li>
+                  Team members review to understand Sprint-B user-stories and
+                  what need to be done.
+                </li>
+              </ul>
+            </td>
+            <td class="wednesday">
+              <p class="scrum-activity">...</p>
+            </td>
+            <td class="thursday">
+              <p class="scrum-activity">...</p>
+            </td>
+            <td class="friday">
+              <p class="scrum-activity">...</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
